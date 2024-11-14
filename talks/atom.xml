@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ag2ai.github.io/ag2/talks</id>
     <title>AutoGen Blog</title>
-    <updated>2024-11-13T21:34:14.000Z</updated>
+    <updated>2024-11-14T05:25:14.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ag2ai.github.io/ag2/talks"/>
     <subtitle>AutoGen Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[Upcoming  Talks]]></title>
         <id>https://ag2ai.github.io/ag2/talks/future_talks</id>
         <link href="https://ag2ai.github.io/ag2/talks/future_talks"/>
-        <updated>2024-11-13T21:34:14.000Z</updated>
+        <updated>2024-11-14T05:25:14.000Z</updated>
         <summary type="html"><![CDATA[Integrating Foundation Models and Symbolic Computing for Next-Generation Robot Planning - Nov 18, 2024]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="integrating-foundation-models-and-symbolic-computing-for-next-generation-robot-planning---nov-18-2024">Integrating Foundation Models and Symbolic Computing for Next-Generation Robot Planning - Nov 18, 2024<a href="https://ag2ai.github.io/ag2/talks/future_talks#integrating-foundation-models-and-symbolic-computing-for-next-generation-robot-planning---nov-18-2024" class="hash-link" aria-label="Direct link to Integrating Foundation Models and Symbolic Computing for Next-Generation Robot Planning - Nov 18, 2024" title="Direct link to Integrating Foundation Models and Symbolic Computing for Next-Generation Robot Planning - Nov 18, 2024">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="speakers-yongchao-chen">Speakers: Yongchao Chen<a href="https://ag2ai.github.io/ag2/talks/future_talks#speakers-yongchao-chen" class="hash-link" aria-label="Direct link to Speakers: Yongchao Chen" title="Direct link to Speakers: Yongchao Chen">​</a></h3>
