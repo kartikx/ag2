@@ -4,7 +4,7 @@
         <title>AG2 Blog</title>
         <link>https://ag2ai.github.io/ag2/talks</link>
         <description>AG2 Blog</description>
-        <lastBuildDate>Tue, 19 Nov 2024 05:58:57 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 19 Nov 2024 16:48:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[Upcoming  Talks]]></title>
             <link>https://ag2ai.github.io/ag2/talks/future_talks</link>
             <guid>https://ag2ai.github.io/ag2/talks/future_talks</guid>
-            <pubDate>Tue, 19 Nov 2024 05:58:57 GMT</pubDate>
+            <pubDate>Tue, 19 Nov 2024 16:48:22 GMT</pubDate>
             <description><![CDATA[Mosaia - The AI community’s platform for creating, sharing and deploying AI agents in a serverless cloud environment - Nov 28, 2024]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="mosaia---the-ai-communitys-platform-for-creating-sharing-and-deploying-ai-agents-in-a-serverless-cloud-environment---nov-28-2024">Mosaia - The AI community’s platform for creating, sharing and deploying AI agents in a serverless cloud environment - Nov 28, 2024<a href="https://ag2ai.github.io/ag2/talks/future_talks#mosaia---the-ai-communitys-platform-for-creating-sharing-and-deploying-ai-agents-in-a-serverless-cloud-environment---nov-28-2024" class="hash-link" aria-label="Direct link to Mosaia - The AI community’s platform for creating, sharing and deploying AI agents in a serverless cloud environment - Nov 28, 2024" title="Direct link to Mosaia - The AI community’s platform for creating, sharing and deploying AI agents in a serverless cloud environment - Nov 28, 2024">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="speakers-aaron-wong-ellis">Speakers: Aaron Wong-Ellis<a href="https://ag2ai.github.io/ag2/talks/future_talks#speakers-aaron-wong-ellis" class="hash-link" aria-label="Direct link to Speakers: Aaron Wong-Ellis" title="Direct link to Speakers: Aaron Wong-Ellis">​</a></h3>
@@ -33,7 +33,7 @@
 <p>Connect: <a href="mailto:shaokunzhang529@gmail.com" target="_blank" rel="noopener noreferrer">shaokunzhang529@gmail.com</a></p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Exploring Pragmatic Patterns in Agentic Systems - Nov 04, 2024]]></title>
+            <title><![CDATA[Integrating Foundation Models and Symbolic Computing for Next-Generation Robot Planning - Nov 18, 2024]]></title>
             <link>https://ag2ai.github.io/ag2/talks/2024/11/18/index</link>
             <guid>https://ag2ai.github.io/ag2/talks/2024/11/18/index</guid>
             <pubDate>Mon, 18 Nov 2024 00:00:00 GMT</pubDate>
@@ -45,7 +45,7 @@
 <p>State-of-the-art language models, like GPT-4o and O1, continue to face challenges in solving tasks with intricate constraints involving logic, geometry, iteration, and optimization. While it's common to query LLMs to generate a plan purely through text output, we stress the importance of integrating symbolic computing to enhance general planning capabilities. By combining LLMs with symbolic planners and solvers, or guiding LLMs to generate code for planning, we enable them to address complex decision-making tasks for both real and virtual robots. This approach extends to various applications, including task and motion planning for drones and manipulators, travel itinerary planning, website agent design, and more.</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Exploring Pragmatic Patterns in Agentic Systems - Nov 04, 2024]]></title>
+            <title><![CDATA[Introducing FastAgency - the fastest way to bring AutoGen workflows to production - Nov 12, 2024]]></title>
             <link>https://ag2ai.github.io/ag2/talks/2024/11/12/index</link>
             <guid>https://ag2ai.github.io/ag2/talks/2024/11/12/index</guid>
             <pubDate>Tue, 12 Nov 2024 00:00:00 GMT</pubDate>
@@ -57,7 +57,7 @@
 <p>Inspired by the design and philosophy of modern Python frameworks such as FastAPI, we designed a framework that allows you to go from a working multi-agent prototype written in AutoGen to a scalable, multi-tenant application with SSO authentication hosted on the cloud in less than one hour. Depending on your needs, you can quickly build a REST-based web service running multiple workers or, in the case of an even larger scale, a distributed service built around a message broker protocol. The framework is powerful and uses complex technologies under the hood, yet it is simple to use and it requires only a few lines of code to get the desired results. FastAgency also has a simple-to-use component that allows you to render rich information in UI, giving you a better way to communicate with the end user. Last but not least, FastAgency allows you to import external REST APIs using their OpenAPI specifications and automatically build tools that can be attached to agents in just a few lines of code. In this walk, I'll walk you over the core concepts behind the framework and illustrate them with examples.</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Exploring Pragmatic Patterns in Agentic Systems - Nov 04, 2024]]></title>
+            <title><![CDATA[Multi-AI Agents for Chip Design with Distilled Knowledge Debugging Graph, Task Graph Solving, and Multi-Modal Capabilities - Nov 11, 2024]]></title>
             <link>https://ag2ai.github.io/ag2/talks/2024/11/11/index</link>
             <guid>https://ag2ai.github.io/ag2/talks/2024/11/11/index</guid>
             <pubDate>Mon, 11 Nov 2024 00:00:00 GMT</pubDate>
