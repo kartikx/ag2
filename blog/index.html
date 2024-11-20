@@ -15,7 +15,7 @@
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
 <script src="/autogen/js/custom.js" async defer="defer"></script><link rel="stylesheet" href="/ag2/assets/css/styles.4f844284.css">
-<script src="/ag2/assets/js/runtime~main.f71f233b.js" defer="defer"></script>
+<script src="/ag2/assets/js/runtime~main.1a889ae3.js" defer="defer"></script>
 <script src="/ag2/assets/js/main.417c7e0e.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -209,11 +209,11 @@ used to create a multimodal agent.</p>
 <p>TL;DR:</p>
 <ul>
 <li>As a developer, how can you assess the utility and effectiveness of an LLM-powered application in helping end users with their tasks?</li>
-<li>To shed light on the question above, we previously introduced <a href="https://ag2ai.github.io/autogen/blog/2023/11/20/AgentEval/" target="_blank" rel="noopener noreferrer"><code>AgentEval</code></a> — a framework to assess the multi-dimensional utility of any LLM-powered application crafted to assist users in specific tasks. We have now embedded it as part of the AutoGen library to ease developer adoption.</li>
+<li>To shed light on the question above, we previously introduced <a href="https://ag2ai.github.io/ag2/blog/2023/11/20/AgentEval/" target="_blank" rel="noopener noreferrer"><code>AgentEval</code></a> — a framework to assess the multi-dimensional utility of any LLM-powered application crafted to assist users in specific tasks. We have now embedded it as part of the AutoGen library to ease developer adoption.</li>
 <li>Here, we introduce an updated version of AgentEval that includes a verification process to estimate the robustness of the QuantifierAgent. More details can be found in <a href="https://arxiv.org/abs/2405.02178" target="_blank" rel="noopener noreferrer">this paper</a>.</li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction">Introduction<a href="#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
-<p>Previously introduced <a href="https://ag2ai.github.io/autogen/blog/2023/11/20/AgentEval/" target="_blank" rel="noopener noreferrer"><code>AgentEval</code></a> is a comprehensive framework designed to bridge the gap in assessing the utility of LLM-powered applications. It leverages recent advancements in LLMs to offer a scalable and cost-effective alternative to traditional human evaluations. The framework comprises three main agents: <code>CriticAgent</code>, <code>QuantifierAgent</code>, and <code>VerifierAgent</code>, each playing a crucial role in assessing the task utility of an application.</p>
+<p>Previously introduced <a href="https://ag2ai.github.io/ag2/blog/2023/11/20/AgentEval/" target="_blank" rel="noopener noreferrer"><code>AgentEval</code></a> is a comprehensive framework designed to bridge the gap in assessing the utility of LLM-powered applications. It leverages recent advancements in LLMs to offer a scalable and cost-effective alternative to traditional human evaluations. The framework comprises three main agents: <code>CriticAgent</code>, <code>QuantifierAgent</code>, and <code>VerifierAgent</code>, each playing a crucial role in assessing the task utility of an application.</p>
 <p><strong>CriticAgent: Defining the Criteria</strong></p>
 <p>The CriticAgent&#x27;s primary function is to suggest a set of criteria for evaluating an application based on the task description and examples of successful and failed executions. For instance, in the context of a math tutoring application, the CriticAgent might propose criteria such as efficiency, clarity, and correctness. These criteria are essential for understanding the various dimensions of the application&#x27;s performance. It’s highly recommended that application developers validate the suggested criteria leveraging their domain expertise.</p>
 <p><strong>QuantifierAgent: Quantifying the Performance</strong></p>
@@ -422,7 +422,7 @@ Tufts University School of Medicine</p>
 </ul>
 <p>There are certainly tradeoffs to make. The large design space of multi-agents offers these tradeoffs and opens up new opportunities for optimization.</p>
 <blockquote>
-<p>Over a year since the debut of Ask AT&amp;T, the generative AI platform to which we’ve onboarded over 80,000 users, AT&amp;T has been enhancing its capabilities by incorporating &#x27;AI Agents&#x27;. These agents, powered by the Autogen framework pioneered by Microsoft (<a href="https://ag2ai.github.io/autogen/blog/2023/12/01/AutoGenStudio/" target="_blank" rel="noopener noreferrer">https://ag2ai.github.io/autogen/blog/2023/12/01/AutoGenStudio/</a>), are designed to tackle complicated workflows and tasks that traditional language models find challenging. To drive collaboration, AT&amp;T is contributing back to the open-source project by introducing features that facilitate enhanced security and role-based access for various projects and data.</p>
+<p>Over a year since the debut of Ask AT&amp;T, the generative AI platform to which we’ve onboarded over 80,000 users, AT&amp;T has been enhancing its capabilities by incorporating &#x27;AI Agents&#x27;. These agents, powered by the Autogen framework pioneered by Microsoft (<a href="https://ag2ai.github.io/ag2/blog/2023/12/01/AutoGenStudio/" target="_blank" rel="noopener noreferrer">https://ag2ai.github.io/ag2/blog/2023/12/01/AutoGenStudio/</a>), are designed to tackle complicated workflows and tasks that traditional language models find challenging. To drive collaboration, AT&amp;T is contributing back to the open-source project by introducing features that facilitate enhanced security and role-based access for various projects and data.</p>
 <blockquote>
 <p>Andy Markus, Chief Data Officer at AT&amp;T</p>
 </blockquote>

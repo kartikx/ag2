@@ -15,7 +15,7 @@
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
 <script src="/autogen/js/custom.js" async defer="defer"></script><link rel="stylesheet" href="/ag2/assets/css/styles.4f844284.css">
-<script src="/ag2/assets/js/runtime~main.f71f233b.js" defer="defer"></script>
+<script src="/ag2/assets/js/runtime~main.1a889ae3.js" defer="defer"></script>
 <script src="/ag2/assets/js/main.417c7e0e.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -36,8 +36,8 @@
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="can-i-use-non-openai-models">Can I use non-OpenAI models?<a href="#can-i-use-non-openai-models" class="hash-link" aria-label="Direct link to Can I use non-OpenAI models?" title="Direct link to Can I use non-OpenAI models?">​</a></h3>
 <p>Yes. You currently have two options:</p>
 <ul>
-<li>Autogen can work with any API endpoint which complies with OpenAI-compatible RESTful APIs - e.g. serving local LLM via FastChat or LM Studio. Please check <a href="https://ag2ai.github.io/autogen/blog/2023/07/14/Local-LLMs" target="_blank" rel="noopener noreferrer">https://ag2ai.github.io/autogen/blog/2023/07/14/Local-LLMs</a> for an example.</li>
-<li>You can supply your own custom model implementation and use it with Autogen. Please check <a href="https://ag2ai.github.io/autogen/blog/2024/01/26/Custom-Models" target="_blank" rel="noopener noreferrer">https://ag2ai.github.io/autogen/blog/2024/01/26/Custom-Models</a> for more information.</li>
+<li>Autogen can work with any API endpoint which complies with OpenAI-compatible RESTful APIs - e.g. serving local LLM via FastChat or LM Studio. Please check <a href="https://ag2ai.github.io/ag2/blog/2023/07/14/Local-LLMs" target="_blank" rel="noopener noreferrer">https://ag2ai.github.io/ag2/blog/2023/07/14/Local-LLMs</a> for an example.</li>
+<li>You can supply your own custom model implementation and use it with Autogen. Please check <a href="https://ag2ai.github.io/ag2/blog/2024/01/26/Custom-Models" target="_blank" rel="noopener noreferrer">https://ag2ai.github.io/ag2/blog/2024/01/26/Custom-Models</a> for more information.</li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="handle-rate-limit-error-and-timeout-error">Handle Rate Limit Error and Timeout Error<a href="#handle-rate-limit-error-and-timeout-error" class="hash-link" aria-label="Direct link to Handle Rate Limit Error and Timeout Error" title="Direct link to Handle Rate Limit Error and Timeout Error">​</a></h2>
 <p>You can set <code>max_retries</code> to handle rate limit error. And you can set <code>timeout</code> to handle timeout error. They can all be specified in <code>llm_config</code> for an agent, which will be used in the OpenAI client for LLM inference. They can be set differently for different clients if they are set in the <code>config_list</code>.</p>
