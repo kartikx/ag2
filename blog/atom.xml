@@ -26,6 +26,7 @@
 <li><strong>Transition Beyond Tool Calls</strong>: We enable the ability to automatically transfer to a nominated swarm agent when an agent has completed their task. We will extend this to allow other transitions in the future (e.g., use a function to determine the next agent ).</li>
 <li><strong>Built-in human-in-the-loop</strong>: Adding a user agent (UserProxyAgent) to your swarm will allow swarm agents to transition back to the user. Provides a means to clarify and confirm with the user without breaking out of the swarm.</li>
 </ul>
+<p>This feature builds on GroupChat, offering a simpler interface to use swarm orchestration. For comparison, see two implementations of the same example: one <a href="https://ag2ai.github.io/ag2/docs/notebooks/agentchat_swarm">using swarm orchestration</a> and another <a href="https://ag2ai.github.io/ag2/docs/notebooks/agentchat_swarm_w_groupchat_legacy">naive implementation with GroupChat (Legacy)</a>.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="handoffs">Handoffs<a href="https://ag2ai.github.io/ag2/blog/2024/11/17/Swarm#handoffs" class="hash-link" aria-label="Direct link to Handoffs" title="Direct link to Handoffs">​</a></h2>
 <p>Before we dive into a swarm example, an important concept in swarm orchestration is when and how an agent hands off to another agent.</p>
 <p>Providing additional flexibility, we introduce the capability to define an after-work handoff. Think of it as the agent's next action after completing their task. It can be to hand off to another agent, revert to the user, stay with the agent for another iteration, or terminate the conversation.</p>
@@ -62,6 +63,13 @@
 <li>Behind-the-scenes, swarm agents are supported by a tool execution agent, that executes tools on their behalf. Hence, the appearance of <code>Tool Execution</code> in the output.</li>
 <li>Currently only swarm agents can be added to a swarm. This is to maintain their ability to manage context variables, auto-execute functions, and support hand offs. Eventually, we may allow ConversableAgent to have the same capability and make "SwarmAgent" a simpler subclass with certain defaults changed (like AssistantAgent and UserProxyAgent).</li>
 <li>Would you like to enhance the swarm feature or have found a bug? Please let us know by creating an issue on the <a href="https://github.com/ag2ai/ag2/issues" target="_blank" rel="noopener noreferrer">AG2 GitHub</a>.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="for-further-reading">For Further Reading<a href="https://ag2ai.github.io/ag2/blog/2024/11/17/Swarm#for-further-reading" class="hash-link" aria-label="Direct link to For Further Reading" title="Direct link to For Further Reading">​</a></h2>
+<ul>
+<li><a href="https://ag2ai.github.io/ag2/docs/topics/swarm">Swarm Orchestration Documentation</a></li>
+<li><a href="https://ag2ai.github.io/ag2/docs/notebooks/agentchat_swarm">Swarm Orchestration Notebook</a></li>
+<li><a href="https://ag2ai.github.io/ag2/docs/notebooks/agentchat_swarm_w_groupchat_legacy">(Legacy) Implement Swarm-style Orchestration with GroupChat
+</a></li>
 </ul>]]></content>
         <author>
             <name>Yiran Wu</name>
