@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[38365],{50088:e=>{e.exports=JSON.parse('{"label":"Nexla","permalink":"/ag2/blog/tags/nexla","allTagsPath":"/ag2/blog/tags","count":1,"unlisted":false}')}}]);
